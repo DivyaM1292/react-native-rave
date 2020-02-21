@@ -24,7 +24,7 @@ import RaveMmoney from "./library/RaveMmoney";
 import RaveUgandaMobileMoney from "./library/RaveUgandaMobileMoney";
 import RaveRwandaMobileMoney from "./library/RaveRwandaMobileMoney";
 import RaveZambiaMobileMoney from "./library/RaveZambiaMobileMoney";
-import Home from "./src/components/Home";
+import Home from "./components/Home";
 
 export default class Rave extends React.Component {
   constructor(props) {
