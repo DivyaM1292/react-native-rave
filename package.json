@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/Flutterwave/rave-react-native"
   },
-  "dependencies": {
+  "devDependencies": {
     "axios": "^0.18.0",
     "card-validator": "^5.0.0",
     "dateformat": "^3.0.3",
