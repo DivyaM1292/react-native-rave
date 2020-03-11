@@ -10,13 +10,14 @@ import {
   TouchableOpacity,
   Image,
   Platform,
-  WebView,
   Dimensions,
   ScrollView
 } from "react-native";
 
 //Scrollable view Library
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
+
+import { WebView } from 'react-native-webview';
 
 var valid = require("card-validator");
 let {height, width} = Dimensions.get('window')
