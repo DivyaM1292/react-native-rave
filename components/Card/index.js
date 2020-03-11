@@ -189,7 +189,7 @@ export default class index extends Component {
         otp: this.state.otp
       })
       .then(res => {
-        if (res.data.tx.status.toUpperCase() === "PROCESSING") {
+        if (res.data.tx.status.toUpperCase() === "SUCCESSFULL") {
           this.setState({
             loading: false,
             cardno: "",
